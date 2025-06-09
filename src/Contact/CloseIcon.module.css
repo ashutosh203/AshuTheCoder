@@ -1,0 +1,10 @@
+.closeIcon{
+  position: absolute;
+  top: 0.5rem;
+  right: 0.9rem;
+  font-size: 2em;
+  cursor: pointer;
+  color: black;
+  transition: color 0.3s ease;
+  
+}

@@ -1,0 +1,25 @@
+
+.profileImageContainer{
+  width: 18rem;
+  height: 18rem;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  position: relative;
+  left: 9rem;
+  bottom: 9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileImageContainer img {
+  width: 95%;
+  height: 95%;
+  border-radius: 50%;
+  /* border: 1px solid #fff; */
+}
+
+.profileImageContainer img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}

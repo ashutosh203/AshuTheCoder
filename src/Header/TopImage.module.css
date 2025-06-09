@@ -1,0 +1,12 @@
+.topImage {
+  width: 19rem;
+  height: 19rem;
+  /* border: 1px solid green; */
+
+}
+
+.topImage img {
+  width: 80%;
+  height: 80%;
+  /* object-fit:cover; */
+}

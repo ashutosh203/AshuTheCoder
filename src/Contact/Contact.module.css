@@ -1,0 +1,81 @@
+.contact {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* border-radius: 1.5rem; */
+  background: rgba(255, 255, 255, 0.467);
+  /* background: rgb(10, 10, 10); */
+  box-shadow: 0 8px 32px 0 rgba(151, 152, 159, 0.692);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.visible {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+
+.contactchild{
+ width: 30rem;
+ height: 30rem;
+ background: rgba(255, 255, 255, 0.251);
+ box-shadow: 0 8px 32px 0 rgba(48, 48, 58, 0.644);
+ border-radius: 1.5rem;
+ backdrop-filter: blur(2px);
+ -webkit-backdrop-filter: blur(2px);
+ border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.contactchild h1 {
+  color: #000000;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.contactchild form textarea {
+  max-width: 80%;
+  min-width: 80%;
+  width: auto;
+  max-height: 7rem;
+  min-height: 7rem;
+  height: auto;
+  margin-left: 3rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.645);
+  overflow-y: scroll;
+  /* overscroll-behavior-inline:contain; */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.236);
+}
+
+.contactchild form button {
+  width: 80%;
+  height: 2rem;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.645);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: #000000;
+}

@@ -1,0 +1,45 @@
+.introduction {
+  width: 45%;
+  height: max-content;
+  position: relative;
+  left: 40%;
+  bottom: 70%;
+  color: white;
+  /* border: 1px solid white; */
+}
+
+.introduction h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.introduction h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.introduction p {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.introduction ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.introduction li {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  /* padding-left: 1.5rem; */
+  font-weight: 700;
+  font-style: italic;
+}
+
+.introduction blockquote {
+  font-size: 1.2rem;
+  margin: 0.8rem 0;
+  padding: 0.5rem;
+  border-left: 4px solid white;
+}

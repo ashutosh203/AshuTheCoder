@@ -1,0 +1,26 @@
+.list {
+  list-style: none;
+  color: white;
+  z-index: 999;
+}
+
+.list li h2 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  /* background-color: rgb(52, 52, 239); */
+  color: rgb(253, 251, 251);
+  font-weight: bolder;
+  border-radius: 1rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  cursor: pointer;
+}
+
+.list li h2:hover {
+  /* background-color: turquoise; */
+  transform: scale(1.1);
+  background-color: rgb(52, 52, 239);
+  /* font-size: x-large; */
+}

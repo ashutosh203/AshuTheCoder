@@ -1,0 +1,13 @@
+.footer{
+  text-align: center;
+  color: white;
+  position: absolute;
+  bottom: 1.5rem;
+  left: 30%;
+  /* border: 1px solid #ccc; */
+}
+
+.footer p {
+  word-spacing: 5px;
+  font-size: largern;
+}

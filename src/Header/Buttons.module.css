@@ -1,0 +1,43 @@
+.resume {
+  width: 13rem;
+  height: 2.8rem;
+  border-radius: 2rem;
+  background-color: rgb(52, 52, 239);
+  border: none;
+  color: white;
+  font-size: large;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  cursor: pointer;
+  transition: ease, transform 0.3s linear;
+  z-index: 1001;
+}
+.resume:hover {
+  /* background-color: #4f4ffc; */
+  transform: scale(1.05);
+}
+
+.primary {
+  width: 13rem;
+  height: 2.8rem;
+  border-radius: 2rem;
+  background: linear-gradient(
+    120deg,
+    rgb(46, 46, 232) 25%,
+    rgb(221, 28, 208) 90%
+  );
+  border: none;
+  color: white;
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+  box-sizing: border-box;
+  padding: 0.1em;
+  cursor: pointer;
+  transition: ease, transform 0.3s linear;
+}
+
+.primary:hover {
+  /* background-color: #4f4ffc; */
+  transform: scale(1.05);
+}

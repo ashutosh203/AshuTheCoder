@@ -1,0 +1,165 @@
+.ProjectCards1,
+.ProjectCards2,
+.ProjectCards3 {
+  width: 20%;
+  height: 70%;
+  margin-left: 3rem;
+  /* background-color: rgba(0, 225, 255, 0.79); */
+  cursor: pointer;
+  border-radius: 2rem;
+  z-index: 1;
+}
+
+.ProjectCards1 {
+  background: url(../assets/cal.jpg) no-repeat center center;
+  background-size: cover;
+  color: black;
+  font-weight: 900;
+  font-size: large;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(242, 242, 242, 0.63);
+}
+
+.ProjectCards1 h1 {
+  text-align: center;
+  padding-top: 0.5rem;
+  font-size: 2rem;
+  color: white;
+}
+
+.ProjectCards1 p {
+  position: absolute;
+  bottom: 0;
+  /* left: 0; */
+  text-align: center;
+  padding-left: 0.5rem;
+  padding-bottom: 1em;
+  font-size: 1.3rem;
+  color: white;
+  text-align: left;
+}
+
+.ProjectCards1 button {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 1.5rem;
+  padding: 0.5rem 1rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  z-index: 1;
+  box-shadow: 0 2px 4px rgba(242, 242, 242, 0.63);
+}
+
+.ProjectCards1:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s linear;
+}
+
+.ProjectCards1:hover button {
+  transition: all 0.6s linear;
+  width: 10rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  transform: translateX(-2rem) translateY(-15rem);
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 8px rgba(242, 242, 242, 0.63);
+}
+
+.ProjectCards2 {
+  background: url(../assets/To_do_App.jpg) no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+
+.ProjectCards2 h1 {
+  text-align: center;
+  padding-top: 0.5rem;
+  font-size: 2rem;
+  color: white;
+}
+
+.ProjectCards2 p {
+  position: absolute;
+  bottom: 1rem;
+  text-align: center;
+  padding-left: 0.5rem;
+  padding-bottom: 1em;
+  font-size: 1.2rem;
+  color: black;
+  text-align: left;
+  font-weight: 700;
+}
+
+.ProjectCards2 button {
+  position: absolute;
+  bottom: 0.2rem;
+  right: 1.2rem;
+  padding: 0.5rem 1rem;
+  background-color: rgb(218, 213, 213);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  z-index: 1;
+  box-shadow: 0 2px 6px rgba(65, 64, 64, 0.897);
+}
+
+.ProjectCards2:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s linear;
+}
+
+.ProjectCards2:hover button {
+  transition: all 0.6s linear;
+  width: 10rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  transform: translateX(-2rem) translateY(-15rem);
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 8px rgba(242, 242, 242, 0.63);
+}
+
+.ProjectCards3 {
+  background: url(../assets/e-commerce.jpg) no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+
+.ProjectCards3 h1 {
+  text-align: center;
+  padding-top: 0.5rem;
+  font-size: 2rem;
+  color: white;
+}
+
+.ProjectCards3 button {
+  position: absolute;
+  bottom: 0.3rem;
+  right: 1.2rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: rgb(214, 212, 212);
+  box-shadow: 0 4px 8px rgba(242, 242, 242, 0.63);
+  z-index: 1;
+}
+
+.ProjectCards3:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s linear;
+}
+
+.ProjectCards3:hover button {
+  transition: all 0.6s linear;
+  width: 10rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  transform: translateX(-2rem) translateY(-15rem);
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 8px rgba(242, 242, 242, 0.63);
+}
