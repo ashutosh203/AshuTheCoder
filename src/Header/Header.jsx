@@ -54,7 +54,7 @@ const Header = () => {
         />
       </div>
 
-      <Buttons className="resume" text="Download resume" />
+      {/* <Buttons className="resume" text="Download resume" /> */}
       {/* // hide */}
       {isOpen && <ProfileImage />}
       {/* // hide */}
@@ -67,7 +67,7 @@ const Header = () => {
       {!isOpen && !isActive && <MainProjectPage onClick={handleClick} />}
 
       <BottomImage />
-      <FooterSection />
+      {/* <FooterSection /> */}
     </div>
   );
 };

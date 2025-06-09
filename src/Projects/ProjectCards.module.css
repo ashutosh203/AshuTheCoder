@@ -163,3 +163,13 @@
   background-color: rgba(255, 255, 255, 0.9);
   box-shadow: 0 4px 8px rgba(242, 242, 242, 0.63);
 }
+
+@media screen and (max-width: 320px) {
+  .ProjectCards1,
+  .ProjectCards2,
+  .ProjectCards3 {
+    width: 80%;
+    height: 320px;
+    margin-left: 0;
+  }
+}

@@ -29,3 +29,17 @@
   left: 19rem;
 }
 
+
+@media screen and (max-width: 320px) {
+  .header{
+    height: 210vh;
+    overflow: auto;
+  }
+  .Listitems{
+    top: 1.5rem;
+    left: 2.5rem;
+    font-size: small;
+    gap: 1rem;
+  }
+}
+

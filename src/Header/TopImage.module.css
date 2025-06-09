@@ -2,11 +2,20 @@
   width: 19rem;
   height: 19rem;
   /* border: 1px solid green; */
-
 }
 
 .topImage img {
   width: 80%;
   height: 80%;
   /* object-fit:cover; */
+}
+
+@media screen and (max-width: 320px) {
+  .topImage {
+    width: 10rem;
+    height: 10rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
 }

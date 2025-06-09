@@ -24,3 +24,9 @@
   background-color: rgb(52, 52, 239);
   /* font-size: x-large; */
 }
+
+@media screen and (max-width: 320px){
+  .list li h2 {
+    font-size: 0.9rem;
+  }
+}

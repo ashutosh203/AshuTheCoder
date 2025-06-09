@@ -6,6 +6,7 @@
   bottom: 70%;
   color: white;
   /* border: 1px solid white; */
+  z-index: 1;
 }
 
 .introduction h1 {
@@ -13,10 +14,10 @@
   margin-bottom: 0.5rem;
 }
 
-.introduction h2 {
+/* .introduction h2 {
   font-size: 2rem;
   margin-bottom: 0.5rem;
-}
+} */
 
 .introduction p {
   font-size: 1.3rem;
@@ -42,4 +43,29 @@
   margin: 0.8rem 0;
   padding: 0.5rem;
   border-left: 4px solid white;
+}
+
+@media screen and (max-width: 320px){
+  .introduction{
+    width: 100%;
+    left: 0;
+    top: 6rem;
+    bottom: 0;
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+    margin-bottom: 3rem ;
+  }
+
+  .introduction h1{
+    font-size:large;
+  }
+
+  .introduction p {
+  font-size: medium;
+}
+  .introduction blockquote{
+    /* margin-bottom: 2rem; */
+    font-size: medium;
+  }
+
 }

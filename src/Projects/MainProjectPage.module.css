@@ -23,3 +23,14 @@
   align-items: center;
 }
 
+@media screen and (max-width: 320px){
+  .MainProjectPage{
+    /* height: max-content; */
+  }
+  .MainProjectPageDiv{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 2.5rem;
+  }  
+}
+
