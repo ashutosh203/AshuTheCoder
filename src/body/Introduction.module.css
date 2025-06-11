@@ -45,27 +45,50 @@
   border-left: 4px solid white;
 }
 
-@media screen and (max-width: 320px){
-  .introduction{
+@media screen and (max-width: 320px) {
+  .introduction {
     width: 100%;
     left: 0;
-    top: 6rem;
+    top: 8rem;
     bottom: 0;
     padding-left: 1rem;
     padding-right: 0.5rem;
-    margin-bottom: 3rem ;
+    margin-bottom: 3rem;
   }
 
-  .introduction h1{
-    font-size:large;
+  .introduction h1 {
+    font-size: large;
   }
 
   .introduction p {
-  font-size: medium;
-}
-  .introduction blockquote{
+    font-size: medium;
+  }
+  .introduction blockquote {
     /* margin-bottom: 2rem; */
     font-size: medium;
   }
+}
+@media screen and (min-width: 321px) and (max-width: 376px) {
+  .introduction {
+    width: 95%;
+    left: 2.5%;
+    top: 8.5rem;
+    bottom: 0;
+    padding-left: 1.2rem;
+    padding-right: 1rem;
+    margin-bottom: 2.5rem;
+  }
 
+  .introduction h1 {
+    font-size: 1.7rem;
+  }
+
+  .introduction p {
+    font-size: 1.1rem;
+  }
+
+  .introduction blockquote {
+    font-size: 1.1rem;
+    /* margin-bottom: 1.5rem; */
+  }
 }

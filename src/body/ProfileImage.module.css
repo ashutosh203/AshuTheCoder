@@ -30,7 +30,12 @@
     width: 9rem;
     height: 9rem;
   }
-  /* .profileImageContainer img {
-
-  } */
+}
+@media screen and (min-width: 321px) and (max-width: 376px) {
+  .profileImageContainer {
+    left: 6.5rem;
+    bottom: -5rem;
+    width: 11rem;
+    height: 11rem;
+  }
 }

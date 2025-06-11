@@ -26,6 +26,7 @@ const Header = () => {
     setIsOpen(false);
     setIsActive(false);
   }
+
   return (
     <div className={styles.header}>
       <TopImage />
@@ -54,7 +55,7 @@ const Header = () => {
         />
       </div>
 
-      {/* <Buttons className="resume" text="Download resume" /> */}
+      <Buttons className="resume" text="Download resume" />
       {/* // hide */}
       {isOpen && <ProfileImage />}
       {/* // hide */}
@@ -64,10 +65,11 @@ const Header = () => {
       {isActive && <Contact onClose={() => setIsActive(false)} />}
 
       {/* hide */}
-      {!isOpen && !isActive && <MainProjectPage onClick={handleClick} />}
+      {!isOpen && !isActive && <MainProjectPage />}
 
+      {/* Always show FooterSection at the bottom */}
       <BottomImage />
-      {/* <FooterSection /> */}
+      {isOpen && <FooterSection />}
     </div>
   );
 };

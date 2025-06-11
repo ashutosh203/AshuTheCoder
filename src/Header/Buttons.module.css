@@ -42,12 +42,39 @@
   transform: scale(1.05);
 }
 
-@media screen and (max-width: 320px){
-  .primary{
+@media screen and (max-width: 320px) {
+  .primary {
     width: 7.8rem;
     height: 2rem;
     font-size: 1rem;
     border-radius: 1rem;
     margin-bottom: 1rem;
+  }
+  .resume {
+    width: 7.8rem;
+    height: 2rem;
+    font-size: 0.8rem;
+    border-radius: 1rem;
+    top: 14rem;
+    left: 5.8rem;
+    z-index: 0;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 376px) {
+  .primary {
+    width: 9rem;
+    height: 2.3rem;
+    font-size: 1.1rem;
+    border-radius: 1.2rem;
+    margin-bottom: 1.2rem;
+  }
+  .resume {
+    width: 9rem;
+    height: 2.3rem;
+    font-size: 1rem;
+    border-radius: 1.2rem;
+    top: 16.5rem;
+    left: 7.5rem;
+    z-index: 0;
   }
 }

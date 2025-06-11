@@ -1,4 +1,4 @@
-.container{
+.container {
   width: 17em;
   height: 18rem;
   position: absolute;
@@ -12,11 +12,20 @@
 }
 
 @media screen and (max-width: 320px) {
-  .container{
+  .container {
     width: 9rem;
     height: 10rem;
     position: fixed;
     right: 0;
-    bottom: 0;  
+    bottom: 0;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 376px) {
+  .container {
+    width: 10rem;
+    height: 11rem;
+    position: fixed;
+    right: 0rem;
+    bottom: 0rem;
   }
 }

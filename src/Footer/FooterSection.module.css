@@ -1,4 +1,4 @@
-.footer{
+.footer {
   text-align: center;
   color: white;
   position: absolute;
@@ -9,5 +9,34 @@
 
 .footer p {
   word-spacing: 5px;
-  font-size: largern;
+  font-size: larger;
+}
+
+@media (max-width: 320px) {
+  .footer {
+    left: 0;
+    right: 0;
+    width: 100%;
+    font-size: small;
+    bottom: -12rem;
+  }
+
+  .footer p {
+    font-size: medium;
+    word-spacing: 2px;
+  }
+}
+@media (min-width: 321px) and (max-width: 376px) {
+  .footer {
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    font-size: medium;
+    bottom: -19rem;
+  }
+
+  .footer p {
+    font-size: large;
+    word-spacing: 3px;
+  }
 }

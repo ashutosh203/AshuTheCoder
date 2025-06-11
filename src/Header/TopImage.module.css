@@ -19,3 +19,13 @@
     left: 0;
   }
 }
+
+@media screen and (min-width: 321px) and (max-width: 376px) {
+  .topImage {
+    width: 10rem;
+    height: 10rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+}
