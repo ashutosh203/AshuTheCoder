@@ -49,3 +49,12 @@
     bottom: 0;
   }
 }
+
+@media screen and (min-width: 769px) and (max-width: 1025px){
+  .container{
+    width: 15em;
+    height: 15rem;
+    right: 0;
+    bottom: -0.7rem;
+  }
+}
