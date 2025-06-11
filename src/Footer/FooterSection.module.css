@@ -56,3 +56,20 @@
     word-spacing: 4px;
   }
 }
+
+@media screen and (min-width: 426px) and (max-width: 769px){
+  .footer {
+    position: relative;
+    left: 7%;
+    right: 7%;
+    width: 86%;
+    font-size: medium;
+    bottom: 7rem;
+  }
+
+
+  .footer p {
+    font-size: 1.3rem;
+    word-spacing: 4px;
+  }
+}

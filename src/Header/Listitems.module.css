@@ -43,3 +43,9 @@
     font-size: large;
   }
 }
+
+@media screen and (min-width: 326px) and (max-width: 769px) {
+  .list li h2 {
+    font-size: 1.2rem;
+  }
+}

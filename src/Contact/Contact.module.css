@@ -181,3 +181,12 @@
     margin-top: 0.8rem;
   }
 }
+
+@media screen and (min-width: 426px) and (max-width: 769px){
+  .contactchild {
+    width: 30rem;
+    height: 30rem;
+    position: relative;
+    top: 2rem;
+  }
+}

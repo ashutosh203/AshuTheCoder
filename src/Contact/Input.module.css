@@ -88,3 +88,16 @@
     font-size: 1.1rem;
   }
 }
+
+@media screen and (min-width: 426px) and (max-width: 769px){
+  .inputcontainer label {
+    margin-bottom: 0.45rem;
+    margin-right: 0;
+    font-size: 1.1rem;
+  }
+  .inputcontainer input {
+    /* width: 13rem; */
+    height: 2rem;
+    font-size: 1.05rem;
+  }
+}

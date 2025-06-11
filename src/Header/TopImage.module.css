@@ -38,3 +38,13 @@
     left: 0;
   }
 }
+
+@media screen and (min-width: 326px) and (max-width: 769px){
+  .topImage {
+    width: 13rem;
+    height: 13rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+}
