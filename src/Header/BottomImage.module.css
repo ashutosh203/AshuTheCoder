@@ -29,3 +29,13 @@
     bottom: 0rem;
   }
 }
+
+@media screen and (min-width: 375px) and (max-width: 426px) {
+  .container {
+    width: 12rem;
+    height: 13rem;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+  }
+}

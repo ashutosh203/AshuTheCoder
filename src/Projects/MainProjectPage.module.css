@@ -24,34 +24,44 @@
 @media screen and (max-width: 320px) {
   .MainProjectPage {
     height: auto;
-     /* height: max-content;  */
+    /* height: max-content;  */
   }
   .MainProjectPageDiv {
     flex-direction: column;
     flex-wrap: nowrap;
     gap: 2.5rem;
-     /* margin-top: 5rem;  */
+    /* margin-top: 5rem;  */
     position: relative;
     top: 5rem;
   }
-} 
-
-
-
+}
 
 @media screen and (min-width: 321px) and (max-width: 376px) {
-    .MainProjectPage {
+  .MainProjectPage {
     height: auto;
-     /* height: max-content;  */
+    /* height: max-content;  */
   }
   .MainProjectPageDiv {
     flex-direction: column;
     flex-wrap: nowrap;
     gap: 2.5rem;
-     /* margin-top: 5rem;  */
+    /* margin-top: 5rem;  */
     position: relative;
     top: 5rem;
   }
- 
- 
+}
+
+@media screen and (min-width: 375px) and (max-width: 426px) {
+  .MainProjectPage {
+    height: auto;
+    /* height: max-content;  */
+  }
+  .MainProjectPageDiv {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 2.8rem;
+    /* margin-top: 5.5rem;  */
+    position: relative;
+    top: 5.5rem;
+  }
 }

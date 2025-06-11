@@ -26,14 +26,20 @@
   z-index: 1000;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 320px) {
   .list li h2 {
     font-size: 0.9rem;
   }
 }
 
-@media (min-width: 321px) and (max-width: 376px){
+@media (min-width: 321px) and (max-width: 376px) {
   .list li h2 {
     font-size: medium;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 426px) {
+  .list li h2 {
+    font-size: large;
   }
 }

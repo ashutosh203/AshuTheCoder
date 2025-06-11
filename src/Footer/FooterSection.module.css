@@ -40,3 +40,18 @@
     word-spacing: 3px;
   }
 }
+
+@media (min-width: 375px) and (max-width: 426px) {
+  .footer {
+    left: 7%;
+    right: 7%;
+    width: 86%;
+    font-size: medium;
+    bottom: -20rem;
+  }
+
+  .footer p {
+    font-size: larger;
+    word-spacing: 4px;
+  }
+}

@@ -92,3 +92,28 @@
     /* margin-bottom: 1.5rem; */
   }
 }
+
+@media screen and (min-width: 375px) and (max-width: 426px) {
+  .introduction {
+    width: 97%;
+    left: 1.5%;
+    top: 9rem;
+    bottom: 0;
+    padding-left: 1.5rem;
+    padding-right: 1.2rem;
+    margin-bottom: 2.8rem;
+  }
+
+  .introduction h1 {
+    font-size: 2rem;
+  }
+
+  .introduction p {
+    font-size: 1.2rem;
+  }
+
+  .introduction blockquote {
+    font-size: 1.2rem;
+    /* margin-bottom: 1.7rem; */
+  }
+}

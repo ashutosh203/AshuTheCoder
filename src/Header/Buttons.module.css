@@ -78,3 +78,22 @@
     z-index: 0;
   }
 }
+
+@media screen and (min-width: 375px) and (max-width: 426px) {
+  .primary {
+    width: 10.5rem;
+    height: 2.5rem;
+    font-size: 1.15rem;
+    border-radius: 1.3rem;
+    margin-bottom: 1.3rem;
+  }
+  .resume {
+    width: 10.5rem;
+    height: 2.5rem;
+    font-size: 1.05rem;
+    border-radius: 1.3rem;
+    top: 18.5rem;
+    left: 7rem;
+    z-index: 0;
+  }
+}

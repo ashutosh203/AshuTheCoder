@@ -29,3 +29,12 @@
     left: 0;
   }
 }
+@media screen and (min-width: 375px) and (max-width: 426px) {
+  .topImage {
+    width: 12rem;
+    height: 12rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+}

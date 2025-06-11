@@ -185,3 +185,14 @@
     /* overflow: hidden; */
   }
 }
+
+@media screen and (min-width: 375px) and (max-width: 426px) {
+  .ProjectCards1,
+  .ProjectCards2,
+  .ProjectCards3 {
+    width: 78%;
+    height: 27rem;
+    margin-left: 1rem;
+    /* overflow: hidden; */
+  }
+}

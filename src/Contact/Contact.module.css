@@ -147,3 +147,37 @@
     margin-top: 0.7rem;
   }
 }
+
+@media (min-width: 375px) and (max-width: 426px) {
+  .contact {
+    box-shadow: none;
+    border: none;
+    height: 100vh;
+  }
+  .contactchild {
+    position: relative;
+    top: 0.5rem;
+    width: 93vw;
+    height: auto;
+    min-height: 24rem;
+    padding: 1.2rem 1.2rem;
+  }
+
+  .contactchild h1 {
+    font-size: 1.7rem;
+    margin-top: 0.7rem;
+  }
+
+  .contactchild form textarea,
+  .contactchild form button {
+    max-width: 97%;
+    min-width: 97%;
+    margin-left: 0.3rem;
+    font-size: 1.1rem;
+  }
+
+  .contactchild form button {
+    height: 2.4rem;
+    margin-top: 0.8rem;
+  }
+}
