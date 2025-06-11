@@ -43,11 +43,12 @@
 
 @media (min-width: 375px) and (max-width: 426px) {
   .footer {
+    position: relative;
     left: 7%;
     right: 7%;
     width: 86%;
     font-size: medium;
-    bottom: -20rem;
+    bottom: -6.5rem;
   }
 
   .footer p {

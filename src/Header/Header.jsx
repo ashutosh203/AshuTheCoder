@@ -14,6 +14,7 @@ const Header = () => {
   const [isActive, setIsActive] = useState(false);
   const handleContactClick = () => {
     setIsActive(true);
+    setIsOpen(false);
   };
 
   const handleHomeClick = () => {
