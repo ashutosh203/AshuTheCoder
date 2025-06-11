@@ -72,3 +72,10 @@
     justify-content: space-around;
   }
 }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .MainProjectPageDiv{
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+}

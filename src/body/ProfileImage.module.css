@@ -62,5 +62,6 @@
     width: 16rem;
     height: 16rem;
     left: 5.5rem;
+    /* margin-left: 0; */
   }
 }
